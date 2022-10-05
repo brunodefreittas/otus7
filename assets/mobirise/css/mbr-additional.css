@@ -1297,7 +1297,6 @@ section.popup-builder .modal.mbr-popup button {
   transition: all 0.3s;
   height: fit-content;
   padding: 1rem 0;
-  opacity: 0.7;
   margin-bottom: 1rem;
 }
 @media (min-width: 992px) {
