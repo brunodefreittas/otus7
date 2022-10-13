@@ -676,20 +676,16 @@ a[class*="text-"]:not(.btn):not([role]):not(.navbar-caption):not(.dropdown-toggl
 section.popup-builder .modal.mbr-popup button {
   border: none;
 }
-.cid-tiODu5p0eB {
-  z-index: 1000;
-  width: 100%;
-  position: relative;
-  min-height: 60px;
+.cid-tiODu5p0eB .navbar-dropdown {
+  position: relative !important;
 }
 .cid-tiODu5p0eB nav.navbar {
-  position: fixed;
-  padding-top: 2.5rem;
-  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 @media (max-width: 991px) {
   .cid-tiODu5p0eB nav.navbar {
-    padding-top: 1.5rem;
+    padding-top: 1rem;
   }
 }
 .cid-tiODu5p0eB .contacts_menu {
@@ -843,7 +839,7 @@ section.popup-builder .modal.mbr-popup button {
 }
 @media (min-width: 992px) {
   .cid-tiODu5p0eB .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
+    max-height: calc(98.5vh - 4.3rem);
   }
 }
 .cid-tiODu5p0eB .navbar.collapsed .dropdown-menu .dropdown-submenu {
@@ -933,7 +929,7 @@ section.popup-builder .modal.mbr-popup button {
   height: 2rem;
 }
 .cid-tiODu5p0eB .navbar.navbar-short .navbar-brand {
-  min-height: 60px;
+  min-height: 70px;
   padding: 0;
 }
 .cid-tiODu5p0eB .navbar-brand {
@@ -941,7 +937,7 @@ section.popup-builder .modal.mbr-popup button {
   flex-shrink: 0;
   align-items: center;
   margin-right: 0;
-  padding: 10px 0;
+  padding: 5px 0;
   transition: all 0.3s;
   word-break: break-word;
   z-index: 1;
@@ -1064,7 +1060,6 @@ section.popup-builder .modal.mbr-popup button {
 }
 .cid-tiODu5p0eB .navbar-dropdown {
   padding: 0 1rem;
-  position: fixed;
 }
 .cid-tiODu5p0eB a.nav-link {
   display: flex;
